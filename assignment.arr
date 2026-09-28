@@ -1,5 +1,5 @@
-```arr
 
+import file("lab2-support.arr") as support
 # Encryptor 1
 # Repeats the string 5 times
 fun my-encryptor1(s :: String) -> String:
@@ -143,6 +143,4 @@ support.test-encryptor7(my-encryptor7)
 support.test-encryptor8(my-encryptor8)
 support.test-encryptor9(my-encryptor9)
 support.test-encryptor10(my-encryptor10)
-```
-use context starter2024
 
